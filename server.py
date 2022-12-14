@@ -4,7 +4,7 @@ import lab1
 
 
 sock = socket.socket()
-sock.bind(('localhost', 8080))
+sock.bind(('localhost', 1080))
 sock.listen(5)
 conn, addr = sock.accept()
 print('connected: ', addr)

@@ -2,9 +2,8 @@ import socket
 import random
 import lab1
 
-
 sock = socket.socket()
-sock.connect(('localhost', 8080))
+sock.connect(('localhost', 1080))
 
 q = 0
 p = 0

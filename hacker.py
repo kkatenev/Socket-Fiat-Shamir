@@ -3,7 +3,7 @@ import random
 import lab1
 
 sock = socket.socket()
-sock.connect(('localhost', 2080))
+sock.connect(('localhost', 1080))
 
 q = 0
 p = 0
