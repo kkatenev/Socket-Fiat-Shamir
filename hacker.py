@@ -8,6 +8,7 @@ sock.connect(('localhost', 1080))
 q = 0
 p = 0
 
+
 status = False
 while status == False:
     q = lab1.create_prime_number()
